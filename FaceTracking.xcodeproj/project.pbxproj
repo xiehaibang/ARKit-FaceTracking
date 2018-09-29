@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1748F816215B71B100D16B67 /* XHBMeshFaceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1748F815215B71B100D16B67 /* XHBMeshFaceNode.m */; };
+		1756FD8E2157D61100AD3334 /* XHBRobotFaceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1756FD8D2157D61100AD3334 /* XHBRobotFaceNode.m */; };
+		1792F033215A16A000111C48 /* XHBVirtualFaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1792F032215A16A000111C48 /* XHBVirtualFaceViewController.m */; };
+		1792F038215A17A200111C48 /* XHBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1792F037215A17A200111C48 /* XHBHomeViewController.m */; };
+		1792F03C215A18AB00111C48 /* XHBHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1792F03B215A18AB00111C48 /* XHBHomeCell.m */; };
+		17E4597A214E569A0082E272 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E45979214E569A0082E272 /* Models.scnassets */; };
+		17E4597F214E5DC10082E272 /* XHBVirtualFaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E4597E214E5DC10082E272 /* XHBVirtualFaceManager.m */; };
+		17E45983214E68740082E272 /* XHBMaskFaceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E45982214E68740082E272 /* XHBMaskFaceNode.m */; };
+		17E60C52214F8E3E00DC188D /* XHBAnimojiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E60C51214F8E3E00DC188D /* XHBAnimojiViewController.m */; };
 		17F6A849214BC00D00BB5C04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F6A848214BC00D00BB5C04 /* AppDelegate.m */; };
-		17F6A84C214BC00D00BB5C04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F6A84B214BC00D00BB5C04 /* ViewController.m */; };
-		17F6A84F214BC00D00BB5C04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F6A84D214BC00D00BB5C04 /* Main.storyboard */; };
 		17F6A851214BC00F00BB5C04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17F6A850214BC00F00BB5C04 /* Assets.xcassets */; };
 		17F6A854214BC00F00BB5C04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F6A852214BC00F00BB5C04 /* LaunchScreen.storyboard */; };
 		17F6A857214BC00F00BB5C04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F6A856214BC00F00BB5C04 /* main.m */; };
@@ -35,12 +42,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1748F814215B71B100D16B67 /* XHBMeshFaceNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHBMeshFaceNode.h; sourceTree = "<group>"; };
+		1748F815215B71B100D16B67 /* XHBMeshFaceNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHBMeshFaceNode.m; sourceTree = "<group>"; };
+		1756FD8C2157D61100AD3334 /* XHBRobotFaceNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHBRobotFaceNode.h; sourceTree = "<group>"; };
+		1756FD8D2157D61100AD3334 /* XHBRobotFaceNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHBRobotFaceNode.m; sourceTree = "<group>"; };
+		1792F031215A16A000111C48 /* XHBVirtualFaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHBVirtualFaceViewController.h; sourceTree = "<group>"; };
+		1792F032215A16A000111C48 /* XHBVirtualFaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHBVirtualFaceViewController.m; sourceTree = "<group>"; };
+		1792F036215A17A200111C48 /* XHBHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHBHomeViewController.h; sourceTree = "<group>"; };
+		1792F037215A17A200111C48 /* XHBHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHBHomeViewController.m; sourceTree = "<group>"; };
+		1792F03A215A18AB00111C48 /* XHBHomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHBHomeCell.h; sourceTree = "<group>"; };
+		1792F03B215A18AB00111C48 /* XHBHomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHBHomeCell.m; sourceTree = "<group>"; };
+		17E45979214E569A0082E272 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
+		17E4597D214E5DC10082E272 /* XHBVirtualFaceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHBVirtualFaceManager.h; sourceTree = "<group>"; };
+		17E4597E214E5DC10082E272 /* XHBVirtualFaceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHBVirtualFaceManager.m; sourceTree = "<group>"; };
+		17E45981214E68740082E272 /* XHBMaskFaceNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHBMaskFaceNode.h; sourceTree = "<group>"; };
+		17E45982214E68740082E272 /* XHBMaskFaceNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHBMaskFaceNode.m; sourceTree = "<group>"; };
+		17E60C50214F8E3E00DC188D /* XHBAnimojiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHBAnimojiViewController.h; sourceTree = "<group>"; };
+		17E60C51214F8E3E00DC188D /* XHBAnimojiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHBAnimojiViewController.m; sourceTree = "<group>"; };
 		17F6A844214BC00D00BB5C04 /* FaceTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17F6A847214BC00D00BB5C04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		17F6A848214BC00D00BB5C04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		17F6A84A214BC00D00BB5C04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		17F6A84B214BC00D00BB5C04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		17F6A84E214BC00D00BB5C04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17F6A850214BC00F00BB5C04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17F6A853214BC00F00BB5C04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17F6A855214BC00F00BB5C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,10 +99,108 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1756FD8B2157D4A400AD3334 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1748F814215B71B100D16B67 /* XHBMeshFaceNode.h */,
+				1748F815215B71B100D16B67 /* XHBMeshFaceNode.m */,
+				17E45981214E68740082E272 /* XHBMaskFaceNode.h */,
+				17E45982214E68740082E272 /* XHBMaskFaceNode.m */,
+				1756FD8C2157D61100AD3334 /* XHBRobotFaceNode.h */,
+				1756FD8D2157D61100AD3334 /* XHBRobotFaceNode.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1792F02F215A165700111C48 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1792F031215A16A000111C48 /* XHBVirtualFaceViewController.h */,
+				1792F032215A16A000111C48 /* XHBVirtualFaceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1792F030215A166000111C48 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				17E4597D214E5DC10082E272 /* XHBVirtualFaceManager.h */,
+				17E4597E214E5DC10082E272 /* XHBVirtualFaceManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		1792F034215A177400111C48 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1792F039215A187700111C48 /* View */,
+				1792F035215A179300111C48 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1792F035215A179300111C48 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1792F036215A17A200111C48 /* XHBHomeViewController.h */,
+				1792F037215A17A200111C48 /* XHBHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1792F039215A187700111C48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1792F03A215A18AB00111C48 /* XHBHomeCell.h */,
+				1792F03B215A18AB00111C48 /* XHBHomeCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1792F03D215A1E4900111C48 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				17F6A847214BC00D00BB5C04 /* AppDelegate.h */,
+				17F6A848214BC00D00BB5C04 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		17E4597B214E56B30082E272 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				17E45979214E569A0082E272 /* Models.scnassets */,
+				17F6A850214BC00F00BB5C04 /* Assets.xcassets */,
+				17F6A852214BC00F00BB5C04 /* LaunchScreen.storyboard */,
+				17F6A855214BC00F00BB5C04 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		17E4597C214E5D7D0082E272 /* VirtualFace */ = {
+			isa = PBXGroup;
+			children = (
+				1792F030215A166000111C48 /* Manager */,
+				1792F02F215A165700111C48 /* Controller */,
+				1756FD8B2157D4A400AD3334 /* Model */,
+			);
+			path = VirtualFace;
+			sourceTree = "<group>";
+		};
+		17E60C4F214F8E1F00DC188D /* Animoji */ = {
+			isa = PBXGroup;
+			children = (
+				17E60C50214F8E3E00DC188D /* XHBAnimojiViewController.h */,
+				17E60C51214F8E3E00DC188D /* XHBAnimojiViewController.m */,
+			);
+			path = Animoji;
+			sourceTree = "<group>";
+		};
 		17F6A83B214BC00D00BB5C04 = {
 			isa = PBXGroup;
 			children = (
 				17F6A846214BC00D00BB5C04 /* FaceTracking */,
+				17F6A856214BC00F00BB5C04 /* main.m */,
 				17F6A85F214BC00F00BB5C04 /* FaceTrackingTests */,
 				17F6A86A214BC00F00BB5C04 /* FaceTrackingUITests */,
 				17F6A845214BC00D00BB5C04 /* Products */,
@@ -101,15 +220,11 @@
 		17F6A846214BC00D00BB5C04 /* FaceTracking */ = {
 			isa = PBXGroup;
 			children = (
-				17F6A847214BC00D00BB5C04 /* AppDelegate.h */,
-				17F6A848214BC00D00BB5C04 /* AppDelegate.m */,
-				17F6A84A214BC00D00BB5C04 /* ViewController.h */,
-				17F6A84B214BC00D00BB5C04 /* ViewController.m */,
-				17F6A84D214BC00D00BB5C04 /* Main.storyboard */,
-				17F6A850214BC00F00BB5C04 /* Assets.xcassets */,
-				17F6A852214BC00F00BB5C04 /* LaunchScreen.storyboard */,
-				17F6A855214BC00F00BB5C04 /* Info.plist */,
-				17F6A856214BC00F00BB5C04 /* main.m */,
+				17E60C4F214F8E1F00DC188D /* Animoji */,
+				1792F03D215A1E4900111C48 /* AppDelegate */,
+				1792F034215A177400111C48 /* Home */,
+				17E4597C214E5D7D0082E272 /* VirtualFace */,
+				17E4597B214E56B30082E272 /* Resources */,
 			);
 			path = FaceTracking;
 			sourceTree = "<group>";
@@ -194,6 +309,7 @@
 		17F6A83C214BC00D00BB5C04 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XHB;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = XHB;
 				TargetAttributes = {
@@ -236,8 +352,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				17F6A854214BC00F00BB5C04 /* LaunchScreen.storyboard in Resources */,
+				17E4597A214E569A0082E272 /* Models.scnassets in Resources */,
 				17F6A851214BC00F00BB5C04 /* Assets.xcassets in Resources */,
-				17F6A84F214BC00D00BB5C04 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +378,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17F6A84C214BC00D00BB5C04 /* ViewController.m in Sources */,
+				1792F033215A16A000111C48 /* XHBVirtualFaceViewController.m in Sources */,
+				1756FD8E2157D61100AD3334 /* XHBRobotFaceNode.m in Sources */,
 				17F6A857214BC00F00BB5C04 /* main.m in Sources */,
+				1792F038215A17A200111C48 /* XHBHomeViewController.m in Sources */,
+				1792F03C215A18AB00111C48 /* XHBHomeCell.m in Sources */,
+				17E45983214E68740082E272 /* XHBMaskFaceNode.m in Sources */,
+				17E60C52214F8E3E00DC188D /* XHBAnimojiViewController.m in Sources */,
 				17F6A849214BC00D00BB5C04 /* AppDelegate.m in Sources */,
+				17E4597F214E5DC10082E272 /* XHBVirtualFaceManager.m in Sources */,
+				1748F816215B71B100D16B67 /* XHBMeshFaceNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +423,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		17F6A84D214BC00D00BB5C04 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				17F6A84E214BC00D00BB5C04 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		17F6A852214BC00F00BB5C04 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -434,15 +549,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M4HQ4UZRFA;
-				INFOPLIST_FILE = FaceTracking/Info.plist;
+				DEVELOPMENT_TEAM = V2F6ZPW5K6;
+				INFOPLIST_FILE = "$(SRCROOT)/FaceTracking/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.bang.FaceTracking;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bang.FaceTracking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -451,15 +567,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M4HQ4UZRFA;
-				INFOPLIST_FILE = FaceTracking/Info.plist;
+				DEVELOPMENT_TEAM = V2F6ZPW5K6;
+				INFOPLIST_FILE = "$(SRCROOT)/FaceTracking/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.bang.FaceTracking;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bang.FaceTracking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
